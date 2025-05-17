@@ -10,3 +10,5 @@ Because there will be two ground planes (the robot battery and the USB battery),
 I want to use a USB-C port for firmware updates and such, as well as for power during standard operations. I think the [TYPE-C-31-M-12](https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948) by Korean Hroparts Elec might be a decent option, it supports USB 2.0 and basic power mode config, so I can pull 15w of power by pulling CC1 and CC2 to ground.
 ### MCU
 I think that a RP2040 is probably the right choice, given the amazing documatation and community support. It's also pretty cheap on JLC, being less than a dollar if you order more than 10. 
+### KiCAD VCS
+KiCAD 9.0 supports git, so I can just make the NeoPWM the base folder for the KiCAD project. Yay!
