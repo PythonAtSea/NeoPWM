@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "883e8582-d657-46a8-8863-9bdb5189a894")
-		(property "Sheetname" "RP2040 stuff"
+		(property "Sheetname" "RP2040 Circuitry"
 			(at 31.75 28.4984 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "RP2040circuitry.kicad_sch"
 			(at 31.75 80.5946 0)
 			(effects
 				(font
