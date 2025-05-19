@@ -14,7 +14,7 @@ I think that a RP2040 is probably the right choice, given the amazing documatati
 KiCAD 9.0 supports git, so I can just make the NeoPWM the base folder for the KiCAD project. Yay!
 ### Starting on the schematic
 I started working on the RP2040 part of the device, and finshing the power input, USB-C port, the crystal oscillator, and the 16Mb flash module (which is a basic part on JLC yay!)
-![schematic](https://github.com/user-attachments/assets/a0271c2a-c7c9-4ce2-817b-07babcd3a7bb)
+![schematic](https://github.com/user-attachments/assets/0e8739b9-67ba-4f71-9daf-3cff128294e6)
 
 ## 5/19/25, 3 hours
 ### Power (ahhhhhhh)
