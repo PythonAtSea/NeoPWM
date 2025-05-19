@@ -3709,6 +3709,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 58.42) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5ee962-3ed1-4d6f-b1d2-697c5875ceee")
+	)
+	(wire
+		(pts
 			(xy 44.45 109.22) (xy 53.34 109.22)
 		)
 		(stroke
@@ -3906,6 +3916,16 @@
 			(type default)
 		)
 		(uuid "349ea300-4a72-4d72-873f-d832b90cbdf3")
+	)
+	(wire
+		(pts
+			(xy 257.81 68.58) (xy 267.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34dcd053-5cc3-4ce1-8846-29fb78efe35d")
 	)
 	(wire
 		(pts
@@ -4186,6 +4206,16 @@
 			(type default)
 		)
 		(uuid "738448e8-ef5d-482b-9949-34cc1d2432bc")
+	)
+	(wire
+		(pts
+			(xy 238.76 68.58) (xy 250.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772316ca-fdd3-4297-b3e3-83c90295f381")
 	)
 	(wire
 		(pts
@@ -4539,6 +4569,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 58.42) (xy 245.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8eab9e6-9a15-4774-ab89-909481614a76")
+	)
+	(wire
+		(pts
 			(xy 41.91 171.45) (xy 41.91 182.88)
 		)
 		(stroke
@@ -4629,6 +4669,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 58.42) (xy 245.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f066cf5a-e82f-4375-acbc-6316bd526b39")
+	)
+	(wire
+		(pts
 			(xy 250.19 38.1) (xy 260.35 38.1)
 		)
 		(stroke
@@ -4666,6 +4716,16 @@
 			(type default)
 		)
 		(uuid "f953caf8-ffd8-4d06-9e8d-674bea8cb1a7")
+	)
+	(wire
+		(pts
+			(xy 245.11 66.04) (xy 238.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95f2ad6-9f0b-458d-87f6-6faf5cd34403")
 	)
 	(wire
 		(pts
@@ -4887,6 +4947,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB D+"
+		(shape input)
+		(at 267.97 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57450004-756a-459b-ab41-fd816d72928a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5752 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB D-"
+		(shape input)
+		(at 267.97 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84b3758a-d78c-4f06-b846-58efc4db820c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5752 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5493,7 +5597,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15p"
 			(at 45.72 177.8 90)
 			(effects
 				(font
@@ -6015,6 +6119,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 254 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "647a716d-ee56-4781-b88b-071677caaea9")
+		(property "Reference" "R8"
+			(at 254 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 254 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4a5f48e-b0f6-4a6b-950b-dd1d2f2322f0")
+		)
+		(pin "1"
+			(uuid "47b0f747-a137-4467-8ad0-87dd9e8b7ef4")
+		)
+		(instances
+			(project "NeoPWM"
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775/883e8582-d657-46a8-8863-9bdb5189a894"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 40.64 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6360,7 +6532,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75a392bd-903a-4f54-98bb-b4eefbd83850")
 		(property "Reference" "SW1"
 			(at 29.21 113.0299 90)
@@ -7362,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15p"
 			(at 45.72 166.37 90)
 			(effects
 				(font
@@ -8039,6 +8210,73 @@
 			(project ""
 				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775/883e8582-d657-46a8-8863-9bdb5189a894"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7de5b32-369b-434a-92f6-63d5f46ff6f3")
+		(property "Reference" "R7"
+			(at 254 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 254 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4635ab14-2e16-4874-a7d1-4641cfacd302")
+		)
+		(pin "1"
+			(uuid "fd7cafac-cd37-4c84-ae7b-be8e79925141")
+		)
+		(instances
+			(project ""
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775/883e8582-d657-46a8-8863-9bdb5189a894"
+					(reference "R7")
 					(unit 1)
 				)
 			)
