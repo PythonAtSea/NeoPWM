@@ -15,3 +15,9 @@ KiCAD 9.0 supports git, so I can just make the NeoPWM the base folder for the Ki
 ### Starting on the schematic
 I started working on the RP2040 part of the device, and finshing the power input, USB-C port, the crystal oscillator, and the 16Mb flash module (which is a basic part on JLC yay!)
 ![schematic](https://github.com/user-attachments/assets/a0271c2a-c7c9-4ce2-817b-07babcd3a7bb)
+
+## 5/19/25, 3 hours
+### Power (ahhhhhhh)
+Leds consume a *lot* of power. I want to support using a USB-C battery bank, which should allow this to have minimal performance impact. To do this I have 2 options, use USB PD or pull the CC pins to ground with 5.1kΩ resistors. Using USB PD would allow for a lot of power, up to 5a at 12v = 60w, but it is also very complicated and expensive to implement. The simpler only supplies 3a at 5v = 15w, but that is enough to power 50 leds at full white which should be enough. I will add a software system to manage the power used to ensure it stays below 15w by dimming the LEDs, but this seems like the best idea.
+### Optocoupler
+I have elected use the LTV-357T for passing the PWM signal from the control hub ground level to the rp2040 ground level, mainly due it's availability on JLC. 

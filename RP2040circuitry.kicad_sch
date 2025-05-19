@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c45cecfd-fb4e-46cf-b186-61a180785134")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "2025-01-15_21-49-59:ABM8-272-T3"
 			(pin_names
@@ -4199,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b252db4-904f-4f6c-834c-9433643e1d1b")
+	)
+	(wire
+		(pts
 			(xy 213.36 55.88) (xy 215.9 55.88)
 		)
 		(stroke
@@ -4489,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 116.84) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60b67d9-a4a3-4be0-a308-d48c88ad3687")
+	)
+	(wire
+		(pts
 			(xy 186.69 55.88) (xy 186.69 58.42)
 		)
 		(stroke
@@ -4726,6 +4746,26 @@
 			(justify left bottom)
 		)
 		(uuid "70d884b5-2cf7-4323-a3e8-d312bef93c35")
+	)
+	(label "XOUT"
+		(at 166.37 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "725907c0-dbc4-4650-96f4-6ec89545976c")
+	)
+	(label "XIN"
+		(at 166.37 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78017986-4391-42cb-aecc-2e85ce94074d")
 	)
 	(label "XIN"
 		(at 109.22 161.29 180)
@@ -8403,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM8-272-T3_ABR"
+		(property "Footprint" "footprints:ABM8-272-T3_ABR"
 			(at 53.34 171.45 0)
 			(effects
 				(font
