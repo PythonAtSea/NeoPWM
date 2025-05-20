@@ -639,6 +639,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -865,6 +972,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 115.57 29.21)
@@ -889,6 +1121,24 @@
 		(uuid "c3cdf1b8-835a-4703-812d-ea6ee9239ed3")
 	)
 	(junction
+		(at 173.99 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05962bb1-8893-496e-8c36-475db3d776e2")
+	)
+	(junction
+		(at 196.85 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28467f84-875d-4f4c-8e99-fe762a523615")
+	)
+	(junction
+		(at 219.71 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f1a840-8a9b-452e-b301-e87dd7c38a05")
+	)
+	(junction
 		(at 200.66 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -906,13 +1156,23 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 43.18) (xy 252.73 43.18)
+			(xy 248.92 40.64) (xy 252.73 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "124cd413-7c99-4cfb-ad53-a032576127f5")
+		(uuid "060a7f9c-63b1-48fd-a1fe-c4c9fd20c9ec")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11629b84-788a-4f84-81cc-572d56f8df9c")
 	)
 	(wire
 		(pts
@@ -946,6 +1206,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 43.18) (xy 257.81 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9e845f-726f-4a1b-9f06-dc6514f48f53")
+	)
+	(wire
+		(pts
 			(xy 127 39.37) (xy 132.08 39.37)
 		)
 		(stroke
@@ -956,6 +1226,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 72.39) (xy 196.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fca91b7-4073-4c0e-8121-bb18b90fab45")
+	)
+	(wire
+		(pts
 			(xy 127 41.91) (xy 132.08 41.91)
 		)
 		(stroke
@@ -963,6 +1243,16 @@
 			(type default)
 		)
 		(uuid "615cfd73-befd-4fa9-a295-6d07fe3c8bdf")
+	)
+	(wire
+		(pts
+			(xy 248.92 38.1) (xy 257.81 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cd1c7e-e636-4558-9f58-94fba1dbd678")
 	)
 	(wire
 		(pts
@@ -1006,26 +1296,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 40.64) (xy 252.73 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afcc590f-8af2-4444-a7f5-5fbece233528")
-	)
-	(wire
-		(pts
-			(xy 248.92 38.1) (xy 252.73 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62e8a96-df9d-401d-9cfb-ab8ef6e9c69d")
-	)
-	(wire
-		(pts
 			(xy 200.66 36.83) (xy 200.66 39.37)
 		)
 		(stroke
@@ -1034,25 +1304,25 @@
 		)
 		(uuid "cd8af7cf-2fb6-4147-8bc8-0f78ebae027a")
 	)
-	(label "NeoPixel Signal"
-		(at 252.73 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 219.71 72.39)
 		)
-		(uuid "02f11733-f640-49b0-af7f-e12ef4fe1c05")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e273cd6e-9da1-4e30-8da4-f51adceb279f")
 	)
-	(label "NeoPixel GND"
-		(at 252.73 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 219.71 72.39) (xy 219.71 73.66)
 		)
-		(uuid "0b12afbb-1dea-48b2-bcbd-c7ca32ea1a82")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cdc279-af30-4563-8f9a-e0fdc9d66bc5")
 	)
 	(label "PWM Signal"
 		(at 147.32 39.37 0)
@@ -1063,16 +1333,6 @@
 			(justify left bottom)
 		)
 		(uuid "494dcb92-f0a5-4fab-ae33-10863d8d0df8")
-	)
-	(label "NeoPixel 5v"
-		(at 252.73 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5acbe56b-270c-47e3-8f4a-bdf5f3752e55")
 	)
 	(label "PWM GND"
 		(at 163.83 44.45 0)
@@ -1136,6 +1396,228 @@
 			)
 		)
 	)
+	(global_label "NeoPixel Signal"
+		(shape input)
+		(at 252.73 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3bac30b-05b5-422e-bd68-fade488a8d70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8341 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 173.99 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "035da6d1-c1b1-498d-af05-e8afb3b524bd")
+		(property "Reference" "H2"
+			(at 176.53 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 176.53 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f6b050-10f4-4086-9b92-701ff47ae63a")
+		)
+		(instances
+			(project "NeoPWM"
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0536e8c0-132f-4ce0-ba73-d39c24ac5d69")
+		(property "Reference" "#PWR024"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9f3a860-4d55-43f8-b3e3-b605c47a65c4")
+		)
+		(instances
+			(project ""
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 151.13 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2545111b-63d0-4ce4-b157-87ad4cac9727")
+		(property "Reference" "H1"
+			(at 153.67 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 153.67 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9173aac-47a6-422e-a9ec-fe48c5de132b")
+		)
+		(instances
+			(project ""
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Isolator:LTV-357T")
 		(at 184.15 41.91 0)
@@ -1162,7 +1644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "LTV-217-B-G:SOIC127P700X210-4N"
 			(at 179.07 46.99 0)
 			(effects
 				(font
@@ -1208,6 +1690,73 @@
 			(project ""
 				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 196.85 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da7091b-dc65-430c-af02-d92c9423a2b9")
+		(property "Reference" "H3"
+			(at 199.39 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 199.39 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "682287a5-5521-4224-9ca2-ec282e23e55b")
+		)
+		(instances
+			(project "NeoPWM"
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1279,6 +1828,139 @@
 			(project ""
 				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 219.71 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e023dae-2afe-4c2b-8c80-f9f072e703c9")
+		(property "Reference" "H4"
+			(at 222.25 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 222.25 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f39a740-ad15-46ac-a016-b5526a080faa")
+		)
+		(instances
+			(project "NeoPWM"
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 257.81 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993b634e-433f-49f5-814b-926f3993db66")
+		(property "Reference" "#PWR025"
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 257.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7925c8d6-227d-4d93-82f1-b03ad87eb9d5")
+		)
+		(instances
+			(project ""
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1554,6 +2236,72 @@
 			(project ""
 				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3420718-d959-4459-9d73-f85ff59dd658")
+		(property "Reference" "#PWR027"
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a79add-8302-4393-b8c5-5c7ca58ea9fe")
+		)
+		(instances
+			(project ""
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

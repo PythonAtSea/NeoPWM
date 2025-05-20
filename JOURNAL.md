@@ -49,4 +49,3 @@ I swapped the optocoupler for the [LTV-217-B-G](https://jlcpcb.com/partdetail/li
 I finished the general layout of the PCB, still need to add mounting holes and a reset button. Still conflicted on whether on not to add a status led. Also KiCAD's 3D view looks soooo cool with raytracing on!
 
 ![Raytraced](https://github.com/user-attachments/assets/551a68e3-29e7-4497-acdd-fe4dc3ea19b2)
-
