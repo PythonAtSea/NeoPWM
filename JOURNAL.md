@@ -35,3 +35,11 @@ I've started to add 3D models to some of the footprints that don't have them, th
 
 ### Done with schematic!
 I finished the schematic, assigned all the footprints, and made sure it transferred without issue!!
+
+## 5/20/25, 3 hours
+### First pass of PCB
+I made my first pass of routing the PCB, although there's still a bunch of tiny things i need to do, as well as fixing a *bunch* of DRC errors
+
+![image](https://github.com/user-attachments/assets/26b21c0c-9c73-466a-99b1-3afce71a9fbc)
+### Optocoupler swap
+I swapped the optocoupler for the [LTV-217-B-G](https://jlcpcb.com/partdetail/liteon-LTV_217_BG/C115450), mainly cause it's a bsic part of JLC, which saves $3. Also it's a SMD part, which makes case design easier because I don't have stuff sticking out of the bottom of the board.
