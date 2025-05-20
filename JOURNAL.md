@@ -27,3 +27,5 @@ I went through and got most of the BOM done, still need to add whatever parts I'
 ### 3D Models
 I've started to add 3D models to some of the footprints that don't have them, this is mianly to assist in making the case down the road (wow im thinking about future self thats crazy)
 ![screwterminal](https://github.com/user-attachments/assets/5d45c454-17b1-40fa-977c-55b1701c48e1)
+### Done with schematic!
+I finished the schematic, assigned all the footprints, and made sure it transferred without issue!!
