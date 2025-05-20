@@ -906,6 +906,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 43.18) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124cd413-7c99-4cfb-ad53-a032576127f5")
+	)
+	(wire
+		(pts
 			(xy 191.77 44.45) (xy 195.58 44.45)
 		)
 		(stroke
@@ -993,6 +1003,26 @@
 			(type default)
 		)
 		(uuid "adb7d688-84ce-4c37-a311-9b32222e8c40")
+	)
+	(wire
+		(pts
+			(xy 248.92 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcc590f-8af2-4444-a7f5-5fbece233528")
+	)
+	(wire
+		(pts
+			(xy 248.92 38.1) (xy 252.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62e8a96-df9d-401d-9cfb-ab8ef6e9c69d")
 	)
 	(wire
 		(pts
@@ -1255,6 +1285,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 243.84 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4cbd986-5406-4c1c-9bf0-702d85e6b683")
+		(property "Reference" "J3"
+			(at 244.475 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NeoPixel Connector"
+			(at 244.475 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "691137710003:CONN3_WR-TBL-1377_WRE"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2462f57-7d70-40a5-9109-e93c40f701a1")
+		)
+		(pin "3"
+			(uuid "ef6dbe80-ddb8-41a6-b8dc-745662fd9880")
+		)
+		(pin "2"
+			(uuid "f74f62c8-814b-4719-972a-d8a0bca0593f")
+		)
+		(instances
+			(project ""
+				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 200.66 25.4 0)
 		(unit 1)
@@ -1348,7 +1449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 198.882 33.02 90)
 			(effects
 				(font
@@ -1416,7 +1517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 41.148 90)
 			(effects
 				(font
