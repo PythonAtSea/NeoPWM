@@ -1,8 +1,9 @@
 # NeoPWM, the best LED controller in *FTC*
 ## Non-obvious TODO
-- Connect the NeoPixel, PWM, and CC data lines to pins on the rp2040 that makes sense.
+- ~~Connect the NeoPixel, PWM, and CC data lines to pins on the rp2040 that makes sense.~~
 - Add a reset button?
 - Maybe add buttons for other stuff?
+- Add mounting holes to the PCB
 ## 5/17/25, 4 hours
 ### General Idea
 In the *FIRST* Tech Challenge, people often want LEDs on their robot for driver feedback and for looks. There isn't a great way to control neopixel, because I²C is *really* slow. REV made the [REV Blinkin](https://www.revrobotics.com/rev-11-1105/), which allows for control over PWM, but you can't do very much configuartion, and you have to run it on the main robot battery. For high level teams with tons of other devices, this isn't feasible. The NeoPWM will allow for advanced configuration over USB, super fast control using PWM, and power using a 5V USB power bank. 
@@ -36,10 +37,16 @@ I've started to add 3D models to some of the footprints that don't have them, th
 ### Done with schematic!
 I finished the schematic, assigned all the footprints, and made sure it transferred without issue!!
 
-## 5/20/25, 3 hours
+## 5/20/25, 4 hours
 ### First pass of PCB
 I made my first pass of routing the PCB, although there's still a bunch of tiny things i need to do, as well as fixing a *bunch* of DRC errors
 
 ![image](https://github.com/user-attachments/assets/26b21c0c-9c73-466a-99b1-3afce71a9fbc)
 ### Optocoupler swap
 I swapped the optocoupler for the [LTV-217-B-G](https://jlcpcb.com/partdetail/liteon-LTV_217_BG/C115450), mainly cause it's a bsic part of JLC, which saves $3. Also it's a SMD part, which makes case design easier because I don't have stuff sticking out of the bottom of the board.
+
+### PCB general layout done
+I finished the general layout of the PCB, still need to add mounting holes and a reset button. Still conflicted on whether on not to add a status led. Also KiCAD's 3D view looks soooo cool with raytracing on!
+
+![Raytraced](https://github.com/user-attachments/assets/551a68e3-29e7-4497-acdd-fe4dc3ea19b2)
+
