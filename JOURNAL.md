@@ -1,3 +1,9 @@
+---
+title: "NeoPWM"
+author: "Hudson"
+description: "The best LED controller in *FTC*"
+created_at: "2024-03-17"
+---
 # NeoPWM, the best LED controller in *FTC*
 ## Non-obvious TODO
 - ~~Connect the NeoPixel, PWM, and CC data lines to pins on the rp2040 that makes sense.~~
