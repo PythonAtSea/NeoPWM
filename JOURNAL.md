@@ -59,3 +59,7 @@ I finished the general layout of the PCB, still need to add mounting holes and a
 I added some M2 mounting holes, these will attach the PCB to the 3D printed case!
 
 ![image](https://github.com/user-attachments/assets/7c372fe3-2e0d-49d4-ad55-1e4e39b13ece)
+
+## 6/1/25, 1 hour
+### Minor tweaks
+Moved the oscillator around to save some space. Debating whether or not to move the PWM signal input over to save space and make the pcb smaller (and cheaper).
