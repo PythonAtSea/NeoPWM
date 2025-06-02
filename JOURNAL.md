@@ -75,3 +75,5 @@ Moved the mounting holes to be in the corners and added a USB-C cable keepout zo
 ## 6/2/25, 3 hours
 ### I/O layout changes
 I decided to move the led output to the left side and the PWM input to the right side to save space. This also allows it to fit into a piece of [GoBilda channel](https://www.gobilda.com/1120-series-u-channel-1-hole-48mm-length/), a very common build system in FTC. I also made a first draft of the case, but realized I was gonna have to completely remake it to account the led panel I have yet to make (probably gonna do that today)
+
+![image](https://github.com/user-attachments/assets/13f196c4-b405-406b-994e-185e00ce61aa)
