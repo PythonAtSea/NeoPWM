@@ -1992,7 +1992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "691137710003:CONN3_WR-TBL-1377_WRE"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 243.84 40.64 0)
 			(effects
 				(font

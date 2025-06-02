@@ -10,6 +10,7 @@ created_at: "2024-03-17"
 - Add a reset button?
 - Maybe add buttons for other stuff?
 - ~~Add mounting holes to the PCB~~
+- Make second PCB for intergrated led panel
 ## 5/17/25, 4 hours
 ### General Idea
 In the *FIRST* Tech Challenge, people often want LEDs on their robot for driver feedback and for looks. There isn't a great way to control neopixel, because I²C is *really* slow. REV made the [REV Blinkin](https://www.revrobotics.com/rev-11-1105/), which allows for control over PWM, but you can't do very much configuartion, and you have to run it on the main robot battery. For high level teams with tons of other devices, this isn't feasible. The NeoPWM will allow for advanced configuration over USB, super fast control using PWM, and power using a 5V USB power bank. 
@@ -60,8 +61,10 @@ I added some M2 mounting holes, these will attach the PCB to the 3D printed case
 
 ![image](https://github.com/user-attachments/assets/7c372fe3-2e0d-49d4-ad55-1e4e39b13ece)
 
-## 6/1/25, 1 hour
+## 6/1/25, 4 hours
 ### Minor tweaks
 Moved the oscillator around to save some space. Debating whether or not to move the PWM signal input over to save space and make the pcb smaller (and cheaper).
 
 ![image](https://github.com/user-attachments/assets/6e8caaf2-24d1-4860-9a69-20fd5fcf3fd2)
+### Less minor tweaks
+Moved the mounting holes to be in the corners and added a USB-C cable keepout zone. Also added some silkscreen stuff!
