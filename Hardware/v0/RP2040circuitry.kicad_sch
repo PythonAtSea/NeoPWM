@@ -5051,6 +5051,28 @@
 			)
 		)
 	)
+	(global_label "Light bar Signal"
+		(shape input)
+		(at 238.76 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54f6fa2c-79b3-4eaf-bf25-d143a0cdf068")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.3477 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB D+"
 		(shape input)
 		(at 49.53 49.53 180)
