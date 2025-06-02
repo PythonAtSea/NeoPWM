@@ -68,3 +68,7 @@ Moved the oscillator around to save some space. Debating whether or not to move 
 ![image](https://github.com/user-attachments/assets/6e8caaf2-24d1-4860-9a69-20fd5fcf3fd2)
 ### Less minor tweaks
 Moved the mounting holes to be in the corners and added a USB-C cable keepout zone. Also added some silkscreen stuff!
+
+![image](https://github.com/user-attachments/assets/a24691cb-514c-4ae2-b4a2-62fc4fafbe69)
+![image](https://github.com/user-attachments/assets/57ee492d-d664-4e66-9e65-057d21344e96)
+
