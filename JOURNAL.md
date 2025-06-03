@@ -80,8 +80,10 @@ I decided to move the led output to the left side and the PWM input to the right
 ### More I/O layout tweaks
 I moved the USB-C port to the exact center cuz it was odd it being barely on the side. I also moved the PWM and LED connectors out 3mm to get outside of the case and make plugging stuff in easier.
 
+![image](https://github.com/user-attachments/assets/630e77b8-7991-40e8-a22d-44a2e35e884f)
 ### Optional LED panel
 Sometime you might want a intergrated panel, like the [GoBilda RGB light](https://www.gobilda.com/rgb-indicator-light-pwm-controlled/). However, some teams would only use the LED strip, so having the panel would be useless. I could've accomplished this with a completely different 2 sided PCBA, but that would be very expensive so I decided to have a optional daughterboard which communicates via a 3 pin vertical Dupont connector.
 
+![image](https://github.com/user-attachments/assets/a60544b4-5975-4627-9180-ef3238b6974e)
 ### Very rough draft of case
 I made a rough draft of the case, and realized a couple things I need to change, including the location of the daughterboard interconnect. This is beacuse the bolt will intersect it's location, which won't work.
