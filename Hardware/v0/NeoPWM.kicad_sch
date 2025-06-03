@@ -2389,6 +2389,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 39.37) (xy 127 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df97eec-4a00-4333-8c47-2a9a1f5b994c")
+	)
+	(wire
+		(pts
 			(xy 165.1 105.41) (xy 175.26 105.41)
 		)
 		(stroke
@@ -2476,16 +2486,6 @@
 			(type default)
 		)
 		(uuid "4dcc8197-fd3d-4085-8bda-8dc42dfcc827")
-	)
-	(wire
-		(pts
-			(xy 127 39.37) (xy 132.08 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7945e2-eb1f-42ca-a440-fe366d8ea09a")
 	)
 	(wire
 		(pts
@@ -2626,16 +2626,6 @@
 			(type default)
 		)
 		(uuid "6ee1ca49-90e5-4ac1-aab5-906f4ea4fe0c")
-	)
-	(wire
-		(pts
-			(xy 127 44.45) (xy 132.08 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709e6625-da33-496c-832a-c89c4940759e")
 	)
 	(wire
 		(pts
@@ -2786,6 +2776,16 @@
 			(type default)
 		)
 		(uuid "8ad426a7-78ad-4dd6-87c0-ef6a88b0b4d9")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2aad99-ba0f-4e01-9d79-0397bbbbaf4b")
 	)
 	(wire
 		(pts
@@ -3258,7 +3258,7 @@
 		(uuid "6ca25d7f-9b65-475d-8c4a-bd73672103d0")
 	)
 	(label "PWM GND"
-		(at 132.08 39.37 0)
+		(at 132.08 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3268,7 +3268,7 @@
 		(uuid "ac621331-207f-43ec-9712-bb6171b33336")
 	)
 	(label "PWM Signal"
-		(at 132.08 44.45 0)
+		(at 132.08 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4761,7 +4761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 121.92 41.91 0)
 			(effects
 				(font
