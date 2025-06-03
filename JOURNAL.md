@@ -86,4 +86,6 @@ Sometime you might want a intergrated panel, like the [GoBilda RGB light](https:
 
 ![image](https://github.com/user-attachments/assets/a60544b4-5975-4627-9180-ef3238b6974e)
 ### Very rough draft of case
-I made a rough draft of the case, and realized a couple things I need to change, including the location of the daughterboard interconnect. This is beacuse the bolt will intersect it's location, which won't work.
+I made a rough draft of the case, and realized a couple things I need to change, including the location of the daughterboard interconnect. This is because the bolt will intersect it's location, which won't work. Ialso learned to not directly derive stuff from the PCB CAD, because any changes to the PCB breaks _everything_
+
+![image](https://github.com/user-attachments/assets/a3b54686-85ee-451f-a484-d22b096f0912)
