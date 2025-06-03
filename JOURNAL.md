@@ -92,3 +92,5 @@ I made a rough draft of the case, and realized a couple things I need to change,
 ## 6/3/25, 3 hours
 ### Case
 Originally I wanted to have m2 screws holding the top and bottom parts of the case together, but after I made a rough draft I printed it out and pressfitting it actually works quite well, so I'm probably gonna do that cuz m2 screws seem easy to mess up. I still have to make the case for the version with the intergrated light tho.
+
+![thing](https://github.com/user-attachments/assets/f254dfe2-ac13-4ab7-8e0e-30ae5c3af177)
