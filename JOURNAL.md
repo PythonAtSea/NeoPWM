@@ -72,7 +72,7 @@ Moved the mounting holes to be in the corners and added a USB-C cable keepout zo
 ![image](https://github.com/user-attachments/assets/a24691cb-514c-4ae2-b4a2-62fc4fafbe69)
 ![image](https://github.com/user-attachments/assets/57ee492d-d664-4e66-9e65-057d21344e96)
 
-## 6/2/25, 5 hours
+## 6/2/25, 6 hours
 ### I/O layout changes
 I decided to move the led output to the left side and the PWM input to the right side to save space. This also allows it to fit into a piece of [GoBilda channel](https://www.gobilda.com/1120-series-u-channel-1-hole-48mm-length/), a very common build system in FTC. I also made a first draft of the case, but realized I was gonna have to completely remake it to account the led panel I have yet to make (probably gonna do that today)
 
@@ -82,3 +82,6 @@ I moved the USB-C port to the exact center cuz it was odd it being barely on the
 
 ### Optional LED panel
 Sometime you might want a intergrated panel, like the [GoBilda RGB light](https://www.gobilda.com/rgb-indicator-light-pwm-controlled/). However, some teams would only use the LED strip, so having the panel would be useless. I could've accomplished this with a completely different 2 sided PCBA, but that would be very expensive so I decided to have a optional daughterboard which communicates via a 3 pin vertical Dupont connector.
+
+### Very rough draft of case
+I made a rough draft of the case, and realized a couple things I need to change, including the location of the daughterboard interconnect. This is beacuse the bolt will intersect it's location, which won't work.
