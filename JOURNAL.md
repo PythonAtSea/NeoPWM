@@ -92,3 +92,9 @@ I made a rough draft of the case, and realized a couple things I need to change,
 ## 6/3/25, 3 hours
 ### Case
 Originally I wanted to have m2 screws holding the top and bottom parts of the case together, but after I made a rough draft I printed it out and pressfitting it actually works quite well, so I'm probably gonna do that cuz m2 screws seem easy to mess up. I still have to make the case for the version with the intergrated light tho.
+
+## 6/4/25, 1 hour
+### Standoffs
+After some thought I realized this is gonnabe on a robot which is gonna experiance a lot of hard shocks, so friction fit is a terrible idea. Instead, I'm gonna use some 6mm m2 standoffs and a decently long screw.
+### Moving daughterboard interconnect
+In order to make space for the standoff, I need to move the interconnect. However, the flash module is in the way so I need to move that, which causes some routing issues because it's very close to the usb data lines. However, I eventually managed to make it work, but I did have to change the clearance between tracks to .15 from .2, which is fine because JLCPCB's tolerance is .1
