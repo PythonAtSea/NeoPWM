@@ -106,3 +106,5 @@ In order to make space for the standoff, I need to move the interconnect. Howeve
 ## 6/5/25, 3 hours
 ### CAD
 I remember why I hate doing CAD, it's so slow and tedious. However, I did eventually get the case completed, for both the versions with and without the intergrated LED panel. I'm planning on getting the clear part on the top 3D printed out of 8001 resin from JLC3DP. 
+
+![image](https://github.com/user-attachments/assets/5d429f39-ef16-4c2e-b572-8abb397f6c70)
