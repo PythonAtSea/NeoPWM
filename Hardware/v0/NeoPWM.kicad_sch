@@ -2379,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 113.03) (xy 46.99 113.03)
+			(xy 43.18 113.03) (xy 76.2 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2826,16 +2826,6 @@
 			(type default)
 		)
 		(uuid "902722b5-8b5e-4df0-bd56-326c1ff757de")
-	)
-	(wire
-		(pts
-			(xy 54.61 113.03) (xy 76.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d1a4ef-417a-458d-a328-613ed73a7923")
 	)
 	(wire
 		(pts
@@ -3650,6 +3640,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7f6b050-10f4-4086-9b92-701ff47ae63a")
 		)
@@ -3747,7 +3745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 118.11 114.2999 0)
 			(effects
 				(font
@@ -3781,6 +3779,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3883,7 +3889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 138.43 114.2999 0)
 			(effects
 				(font
@@ -3917,6 +3923,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3953,7 +3967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 97.79 114.2999 0)
 			(effects
 				(font
@@ -3987,6 +4001,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4057,6 +4079,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -4135,6 +4165,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9173aac-47a6-422e-a9ec-fe48c5de132b")
 		)
@@ -4173,7 +4211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTV-217-B-G:SOIC127P700X210-4N"
+		(property "Footprint" "LTV-357T:LTV-357T_LTO"
 			(at 179.07 46.99 0)
 			(effects
 				(font
@@ -4201,6 +4239,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C119089"
+			(at 184.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -4279,6 +4325,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "96656d76-6340-467c-871f-36439c2ce3eb")
 		)
@@ -4353,6 +4407,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -4431,6 +4493,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "56671a90-1348-4beb-953c-040cdf561bd6")
 		)
@@ -4507,6 +4577,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "618991f1-8580-4bfe-b25d-a0cba0d5deb5")
 		)
@@ -4556,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 39.0652 138.43 0)
 			(effects
 				(font
@@ -4581,6 +4659,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4653,6 +4739,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "682287a5-5521-4224-9ca2-ec282e23e55b")
 		)
@@ -4684,7 +4778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 138.43 138.4299 0)
 			(effects
 				(font
@@ -4720,6 +4814,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7550e63b-b263-4bda-89e5-1e4d0bfa1795")
 		)
@@ -4740,7 +4842,7 @@
 		(at 121.92 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4786,6 +4888,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4861,6 +4971,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 190.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b849d702-a77a-4deb-9755-3041b4d24b6a")
 		)
@@ -4928,6 +5046,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "616c5333-c60f-4864-be8e-887a1b67eaed")
 		)
@@ -4968,7 +5094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 179.07 114.2999 0)
 			(effects
 				(font
@@ -5002,6 +5128,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5072,6 +5206,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -5150,6 +5292,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 167.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea807361-eb11-4674-93e9-1a1bad0eab03")
 		)
@@ -5217,6 +5367,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "d5a27938-80d1-4b3e-becc-d9dce7c3b2da")
 		)
@@ -5257,7 +5415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 118.11 161.2899 0)
 			(effects
 				(font
@@ -5291,6 +5449,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 114.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5327,7 +5493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 97.79 161.2899 0)
 			(effects
 				(font
@@ -5361,6 +5527,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 93.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5431,6 +5605,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 165.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -5509,6 +5691,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f39a740-ad15-46ac-a016-b5526a080faa")
 		)
@@ -5526,7 +5716,7 @@
 		(at 38.1 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5572,6 +5762,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -5713,6 +5911,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "474bdf6b-aa95-429a-affa-6ac9516d6267")
 		)
@@ -5789,6 +5995,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 144.78 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3874f08-1a9c-4318-9666-5b647a7bcfaf")
 		)
@@ -5856,6 +6070,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5380878"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "dc6bef21-0670-43bd-a36c-1b2b82cc0307")
 		)
@@ -5882,7 +6104,7 @@
 		(at 243.84 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5928,6 +6150,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6069,6 +6299,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 200.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5197b9dd-8ba2-49d3-9d3b-e50597f01bef")
 		)
@@ -6103,7 +6341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 118.11 138.4299 0)
 			(effects
 				(font
@@ -6137,6 +6375,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6207,6 +6453,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 165.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "818e3881-c862-4201-a632-355d0239369a")
 		)
@@ -6275,6 +6529,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6374,7 +6636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 158.75 138.4299 0)
 			(effects
 				(font
@@ -6408,6 +6670,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6444,7 +6714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 158.75 114.2999 0)
 			(effects
 				(font
@@ -6480,6 +6750,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a162850-0912-4f35-88d1-1b7f08e49612")
 		)
@@ -6500,7 +6778,7 @@
 		(at 127 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6548,6 +6826,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "aa2b9288-04ea-4436-a4ef-e20b90feb8be")
 		)
@@ -6585,7 +6871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 179.07 138.4299 0)
 			(effects
 				(font
@@ -6621,6 +6907,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9c15db4b-53b3-4839-a09a-55de4074d565")
 		)
@@ -6631,74 +6925,6 @@
 			(project "NeoPWM"
 				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcde1add-3765-4b9a-9f66-c280d2d4efce")
-		(property "Reference" "R10"
-			(at 50.8 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 50.8 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.8 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98d16eb2-b530-41db-a949-13b52e916934")
-		)
-		(pin "1"
-			(uuid "283a2e66-34de-4cb6-b3a6-ee7bcfb04bb2")
-		)
-		(instances
-			(project ""
-				(path "/5f4f8df1-f390-4405-b7ce-064ebaa7e775"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6757,6 +6983,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5380878"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -6931,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 97.79 138.4299 0)
 			(effects
 				(font
@@ -6965,6 +7199,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

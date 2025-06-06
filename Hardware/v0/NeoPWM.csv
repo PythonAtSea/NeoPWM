@@ -1,0 +1,4 @@
+Reference,Qty,Value,DNP,Exclude from BOM,LCSC,Footprint,Exclude from Board,Datasheet
+"C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28",12,100n,,,C1525,Capacitor_SMD:C_0402_1005Metric,,~
+C29,1,100u,,,C15008,Capacitor_SMD:C_1206_3216Metric,,~
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12",12,SK6812,,,C5380878,LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,,https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf

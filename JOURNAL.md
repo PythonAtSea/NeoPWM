@@ -100,3 +100,7 @@ Originally I wanted to have m2 screws holding the top and bottom parts of the ca
 After some thought I realized this is gonnabe on a robot which is gonna experiance a lot of hard shocks, so friction fit is a terrible idea. Instead, I'm gonna use some 6mm m2 standoffs and a decently long screw.
 ### Moving daughterboard interconnect
 In order to make space for the standoff, I need to move the interconnect. However, the flash module is in the way so I need to move that, which causes some routing issues because it's very close to the usb data lines. However, I eventually managed to make it work, but I did have to change the clearance between tracks to .15 from .2, which is fine because JLCPCB's tolerance is .1
+
+## 6/5/25, 3 hours
+### CAD
+I remember why I hate doing CAD, it's so slow and tedious. However, I did eventually get the case completed, for both the versions with and without the intergrated LED panel. I'm planning on getting the clear part on the top 3D printed out of 8001 resin from JLC3DP. 
