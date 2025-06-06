@@ -3,8 +3,12 @@
 > [!NOTE]
 > This is a [Highway](https://highway.hackclub.com) project, if you're here from slack (or just want to see the process of development) see [JOURNAL.md](https://github.com/PythonAtSea/NeoPWM/blob/main/JOURNAL.md), for the BOM see INSERT LINK HERE
 
+##### What is it?
 The NeoPWM is a PWM controlled, USB-C powered, highly configurable SK6812/WS2801 (NeoPixel) controller designed for the _FIRST_ Tech Challenge (FTC). It will have a web based tool to generate configuration files and send over a serial interface. It will have poweron and PWM signal loss states, which allow led patterns to be triggered after a match and during the transition period. It also has a optional intergrated LED panel with 12 SK6812 LEDs, which will have prebuilt patterns. 
-
+##### Why did I make it?
+In FTC, there was never a great way to control LEDs. YOu could control a strip of leds over I2C using a [I2C to NeoPixel driver](https://www.adafruit.com/product/5766), but the I2C ports on the [REV Control Hub ](https://www.revrobotics.com/rev-31-1595/) are slow, which ruins your loop times which causes problems with odometry. You could use the [REV Blinkin](https://www.revrobotics.com/rev-11-1105/)
+ (no that's not a typo) which is controlled over I2C, but you can't do any configuration and it's powered from the main robot battery. The NeoPWM can be powered from a external USB-C battery and will have a web tool to configure the patterns, and it will have a intergrated LED panel like the [CTRE CANdle](https://store.ctr-electronics.com/products/candle), but it will be optional, saving costs for teams who just want a LED strip.
+ 
 **NeoPWM in default configuration without LED panel.**
 
 ![image](https://github.com/user-attachments/assets/02de5055-ee8a-48e3-bc93-0edae5d21c3f)
