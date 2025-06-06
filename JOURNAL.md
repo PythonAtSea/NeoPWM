@@ -7,10 +7,8 @@ created_at: "2024-03-17"
 # NeoPWM, the best LED controller in *FTC*
 ## Non-obvious TODO
 - ~~Connect the NeoPixel, PWM, and CC data lines to pins on the rp2040 that makes sense.~~
-- Add a reset button?
-- Maybe add buttons for other stuff?
 - ~~Add mounting holes to the PCB~~
-- Make second PCB for intergrated led panel
+- ~~Make second PCB for intergrated led panel~~
 ## 5/17/25, 4 hours
 ### General Idea
 In the *FIRST* Tech Challenge, people often want LEDs on their robot for driver feedback and for looks. There isn't a great way to control neopixel, because I²C is *really* slow. REV made the [REV Blinkin](https://www.revrobotics.com/rev-11-1105/), which allows for control over PWM, but you can't do very much configuartion, and you have to run it on the main robot battery. For high level teams with tons of other devices, this isn't feasible. The NeoPWM will allow for advanced configuration over USB, super fast control using PWM, and power using a 5V USB power bank. 
@@ -108,3 +106,9 @@ In order to make space for the standoff, I need to move the interconnect. Howeve
 I remember why I hate doing CAD, it's so slow and tedious. However, I did eventually get the case completed, for both the versions with and without the intergrated LED panel. I'm planning on getting the clear part on the top 3D printed out of 8001 resin from JLC3DP. 
 
 ![image](https://github.com/user-attachments/assets/5d429f39-ef16-4c2e-b572-8abb397f6c70)
+
+## 6/6/25, 2 hours
+### Cost optimizing
+Since tariffs happened, saving $5 dollars with JLC assembly actually saves $8 after tariffs. Also, shipping is _really_ expensive (around $38), and this is mainly due to weight. One thing you can do the save weight (and money) is make your pcb as small as humanly possible by putting the footprints right up each other. Additionally, if you can keep it under 100x100mm the PCB is $2. Another cool trick you can do if you have 2 boards is use mousebites and connect them togther, which means you only have to pay the PCBA setup fee once (if you're using PCBA). Using that $9 coupon saved me around $13.
+
+![image](https://github.com/user-attachments/assets/638d51a2-2868-401d-92aa-eba1323f3ecd)
