@@ -1,7 +1,7 @@
 # NeoPWM
 ### The best led controller for FTC
 > [!NOTE]
-> This is a [Highway](https://highway.hackclub.com) project, if you're here from slack (or just want to see the process of development) see [JOURNAL.md](https://github.com/PythonAtSea/NeoPWM/blob/main/JOURNAL.md), for the BOM see INSERT LINK HERE
+> This is a [Highway](https://highway.hackclub.com) project, if you're here from slack (or just want to see the process of development) see [JOURNAL.md](https://github.com/PythonAtSea/NeoPWM/blob/main/JOURNAL.md), for the BOM see [BOM.md](https://github.com/PythonAtSea/NeoPWM/blob/main/BOM.md)
 
 ##### What is it?
 The NeoPWM is a PWM controlled, USB-C powered, highly configurable SK6812/WS2801 (NeoPixel) controller designed for the _FIRST_ Tech Challenge (FTC). It will have a web based tool to generate configuration files and send over a serial interface. It will have poweron and PWM signal loss states, which allow led patterns to be triggered after a match and during the transition period. It also has a optional intergrated LED panel with 12 SK6812 LEDs, which will have prebuilt patterns. 
