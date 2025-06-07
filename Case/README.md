@@ -1,0 +1,4 @@
+- Bottom: common part between both version
+- Top: only used on version without LED panel
+- Top with panel: only used on version with LED panel
+- Clear panel: Optional, only used on version with LED panel
