@@ -9,6 +9,9 @@ created_at: "2024-03-17"
 - ~~Connect the NeoPixel, PWM, and CC data lines to pins on the rp2040 that makes sense.~~
 - ~~Add mounting holes to the PCB~~
 - ~~Make second PCB for intergrated led panel~~
+
+## Total time: 32 hours
+
 ## 5/17/25, 4 hours
 ### General Idea
 In the *FIRST* Tech Challenge, people often want LEDs on their robot for driver feedback and for looks. There isn't a great way to control neopixel, because I²C is *really* slow. REV made the [REV Blinkin](https://www.revrobotics.com/rev-11-1105/), which allows for control over PWM, but you can't do very much configuartion, and you have to run it on the main robot battery. For high level teams with tons of other devices, this isn't feasible. The NeoPWM will allow for advanced configuration over USB, super fast control using PWM, and power using a 5V USB power bank. 
