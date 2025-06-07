@@ -1,0 +1,5 @@
+{
+  "pwm_pin": 25,
+  "neopixel_pin": 0,
+  "num_pixels": 8
+}
