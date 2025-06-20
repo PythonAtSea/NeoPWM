@@ -115,3 +115,11 @@ I remember why I hate doing CAD, it's so slow and tedious. However, I did eventu
 Since tariffs happened, saving $5 dollars with JLC assembly actually saves $8 after tariffs. Also, shipping is _really_ expensive (around $38), and this is mainly due to weight. One thing you can do the save weight (and money) is make your pcb as small as humanly possible by putting the footprints right up each other. Additionally, if you can keep it under 100x100mm the PCB is $2. Another cool trick you can do if you have 2 boards is use mousebites and connect them togther, which means you only have to pay the PCBA setup fee once (if you're using PCBA). Using that $9 coupon saved me around $13.
 
 ![image](https://github.com/user-attachments/assets/638d51a2-2868-401d-92aa-eba1323f3ecd)
+
+## 6/19/25, 1 hour?
+
+### ......
+
+So I got my PCB! Then it wouldn't work with usb. Then I checked my schematic. ![image](https://github.com/user-attachments/assets/5525bcff-5896-4427-a4dd-d204750fb922)
+
+so i thought about this for a bit, and eventually decided to make a "crossover" usb extension cable. ![image](https://github.com/user-attachments/assets/4a04b805-5813-45bb-82d8-233c319d0a43) (sorrt for the bad image quality, it was taken on a 5 year old laptop webcam)
